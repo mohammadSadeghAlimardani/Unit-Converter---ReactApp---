@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("./fonts/WorkSans-Regular.ttf") format("truetype");
+}
+
+.unit-converter {
+    text-align: center;
+    padding: 1rem 0;
+    font-family: "WorkSans-Regular";
+    width: 100%;
+    height: calc(100vh - 2rem);
+    background-color: var(--light-300);
+}
+.unit-converter-center {
+    max-width: 315px;
+}
+
+h3.title {
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.select-units {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+.select-units article {
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 8px 1px var(--primary-300);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.select-units article svg {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form.convert-form {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+form.convert-form header {
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+form.convert-form select,
+input {
+    width: 100%;
+    background-color: #290a5c;
+    color: white;
+    border: 0;
+    padding: 0.5rem 0.5rem;
+    font-family: "WorkSans-Regular";
+    border-radius: 0.5rem;
+}
+form.convert-form select:focus {
+    outline: none;
+}
+form.convert-form select option {
+    background-color: white;
+    color: black;
+}
+form.convert-form section {
+    text-align: left;
+}
+form.convert-form section {
+    margin: 2rem 0;
+}
+form.convert-form section input {
+    width: calc(100% - 1.5rem);
+}
+form.convert-form section input:focus {
+    outline: none;
+}
+form.convert-form section label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+form.convert-form button {
+    background-color: var(--light-700);
+}
+form.convert-form button:hover {
+    background-color: var(--light-800);
+}
+
+.converted p {
+    color: #290a5c;
+}
