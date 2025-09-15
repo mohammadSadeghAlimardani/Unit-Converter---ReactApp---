@@ -8,7 +8,7 @@ const Converted = (props) => {
                     {amount} {fromUnit} is{" "}
                     {convertedAmount < 1
                         ? Number(convertedAmount).toFixed(10)
-                        : Math.round(convertedAmount)}{" "}
+                        : Number(convertedAmount).toFixed(4)}{" "}
                     {toUnit}
                 </p>
             ) : (

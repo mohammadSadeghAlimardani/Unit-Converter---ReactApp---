@@ -33,8 +33,8 @@ const data = [
         unitName: "volume",
         unitIcon: <IoMdCube />,
         converts: {
-            "cubicMeter-gallon": 264.172052,
-            "gallon-liter": 3.78541,
+            "cubicMeter-gallon": 264.172052358148,
+            "gallon-liter": 3.785411784,
             "liter-cubicCentiMeter": 1000,
             "cubicCentiMeter-cubicCentiMeter": 1,
         },

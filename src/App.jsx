@@ -59,6 +59,12 @@ const App = () => {
             <div className="unit-converter">
                 <div className="section-center unit-converter-center">
                     <h3 className="title">plase select your unit</h3>
+                    <div className="alert alert-warning">
+                        <p>
+                            for see correct result, click on convert button at
+                            the end of every convert
+                        </p>
+                    </div>
                     <SelectUnit handleSelectUnit={handleSelectUnit} />
                     {unitsArray.length > 0 || valuesArray.length > 0 ? (
                         <section>

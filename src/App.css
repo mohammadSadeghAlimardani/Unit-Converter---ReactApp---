@@ -8,7 +8,7 @@
     padding: 1rem 0;
     font-family: "WorkSans-Regular";
     width: 100%;
-    height: calc(100vh - 2rem);
+    height: 105vh;
     background-color: var(--light-300);
 }
 .unit-converter-center {
@@ -21,6 +21,7 @@ h3.title {
 }
 
 .select-units {
+    margin-top: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
